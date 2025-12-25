@@ -95,3 +95,8 @@ override*.toml
 
 # Pythin venv
 .venv/
+
+# Generated SBOM files
+*-sbom.spdx.json
+*-sbom.cdx.json
+*-source-sbom.spdx.json
