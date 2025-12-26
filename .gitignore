@@ -126,3 +126,10 @@ core/scripts/cre/environment/logs/
 core/scripts/cre/environment/cron
 core/scripts/cre/environment/binaries/*
 *.br.b64
+
+# Nix build output
+result
+
+# Generated SBOM files
+*-sbom.spdx.json
+*-sbom.cdx.json
